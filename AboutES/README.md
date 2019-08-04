@@ -76,14 +76,9 @@ text : 형태소 분석
 7. _routing
     - 특정 문서를 특정 샤드에 저장하기 위해 사용
     
-# 필드 데이터 타입
 
-1. keyword
-    - 별도의 분석기를 거치지 않고 색인
-    - 검색 시 필터링 항목, 정렬 항목, 집계 항목
-    - boost : 필드 가중치
-    - doc_values : 필드 메모리에 로드해 캐시 사용 여부 (default : true)
-    - index : 해당 필드 검색 사용 여부 (default ; true)
-    - null_value : 데이터 값이 없는 경우 대체할지 설정
-    - store : 필드 값과 별도로 _source 저장 검색 여부 (default : false)
-2. 
+# 데이터 필드
+[데이터 필드](DataType.md)
+
+# 분석기   
+[분석기](Analyzer.md)
